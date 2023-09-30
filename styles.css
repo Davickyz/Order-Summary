@@ -1,0 +1,129 @@
+body,
+ h1,
+  p,
+   div{
+      margin: 0;
+      font-family: 'Red Hat Display', sans-serif;
+}
+
+@media (max-width: 500px){
+  body{
+    background-color: hsl(225, 100%, 94%);
+    background-image: url("images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10%;
+  }
+}
+
+@media (min-width: 501px){
+  body{
+    background-color: hsl(225, 100%, 94%);
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5%;
+  }
+}
+
+section{
+  background-color: white;
+  max-width: 450px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 80px rgba(96, 96, 96, 0.244);
+}
+
+.hero{
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.content{
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.content-header{
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  margin-bottom: 20px;
+}
+
+.content-text{
+  margin-bottom: 20px;
+}
+
+.pale-color{
+  color: hsl(224, 23%, 55%);
+}
+
+.content-plan{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(225, 100%, 98%);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.music{
+  width: 49px;
+  flex: 1;
+}
+
+.icon-music{
+  width: 100%;
+}
+
+.plan{
+  font-weight: 700;
+}
+
+.a{
+  flex: 1.5;
+  text-align: right;
+}
+
+a{
+  font-weight: 700;
+  transition: opacity 0.15s;
+}
+
+a:hover{
+  opacity: 0.5;
+}
+
+button{
+  width: 100%;
+  padding: 16px 0;
+  border-radius: 10px;
+  color: hsl(225, 100%, 98%);
+  font-weight: 900;
+  border: none;
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 0px 20px 30px hsla(245, 75%, 52%, 0.355);
+  margin-bottom: 20px;
+  transition: opacity 0.15s;
+}
+
+button:hover{
+  opacity: 0.8;
+}
+
+.cancel-order{
+  font-weight: 900;
+  transition: color 0.15s;
+}
+
+.cancel-order:hover{
+  color: hsl(223, 47%, 23%);
+}
